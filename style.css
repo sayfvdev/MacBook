@@ -1,0 +1,122 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Ubuntu;
+    }
+
+    .container {
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    .txt h1 {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 59.42px;
+        text-align: center;
+        padding-top: 70px;
+        padding-bottom: 25px
+    }
+
+    .txt p {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21.83px;
+        text-align: center;
+        padding-bottom: 54px;
+    }
+
+    .grid_box {
+        align-items: center;
+        display: flex;
+        gap: 54px;
+        justify-content: center;
+    }
+
+    .img {
+        width: 312px;
+        height: 290px;
+        background-image: url('./silver-select.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        transition: .5s ease;
+    }
+
+    .grid_item h1 {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 59.42px;
+        text-align: center;
+    }
+
+    .grid_item p {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29.71px;
+        text-align: left;
+        color: #0071E3;
+    }
+
+    #price {
+        padding-top: 48px;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 59.42px;
+        text-align: left;
+    }
+
+    .btn {
+        margin-top: 70px;
+        border-radius: 10px;
+        border: 0;
+        color: white;
+        width: 155px;
+        height: 42px;
+        background-color: #0071E3;
+    }
+
+    .gb button {
+        width: 321px;
+        height: 57px;
+        border: 2px solid #CFE7FF;
+        border-radius: 15px;
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .gb button:hover {
+        border: 2px solid #0071E3;
+    }
+
+    .gb p {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 22.05px;
+        text-align: left;
+    }
+
+    .gb h3 {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 17.15px;
+        text-align: right;
+    }
+
+    .btn1 {
+        margin-bottom: 10px;
+        margin-top: 40px;
+    }
+
+    .btn2 {
+        margin-bottom: 10px;
+    }
+
+    .btn3 {
+        margin-bottom: 10px;
+    }
+
+    .btn4 {
+        margin-bottom: 100px;
+    }
